@@ -741,17 +741,17 @@ prompt_pure_setup() {
 	# Set the colors.
 	typeset -gA prompt_pure_colors_default prompt_pure_colors
 	prompt_pure_colors_default=(
-		execution_time       yellow
+		execution_time       166
 		git:arrow            cyan
 		git:stash            cyan
-		git:branch           242
+		git:branch           38
 		git:branch:cached    red
 		git:action           yellow
-		git:dirty            218
+		git:dirty            166
 		host                 242
-		path                 blue
+		path                 15
 		prompt:error         red
-		prompt:success       magenta
+		prompt:success       166
 		prompt:continuation  242
 		user                 242
 		user:root            default
